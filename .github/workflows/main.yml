@@ -5,10 +5,10 @@ name: Office E5
 
 on:
   schedule:
-    - cron: '7,17,19,22,36,47,53 7-10 * * *'
-    - cron: '18,32,43,52 11,12,14,15 * * *'
-    - cron: '9,12,22,37,56 16-19 * * *'
-    - cron: '2,15,23,38,51 21 * * *'
+    - cron: ''
+    - cron: ''
+    - cron: ''
+    - cron: ''
   release:
     types: [published]
   watch:
