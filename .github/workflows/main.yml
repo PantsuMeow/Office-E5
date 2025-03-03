@@ -40,8 +40,8 @@ jobs:
         tail run.log   
     - name: Commit log
       env:
-        NAME: PantsuMeow
-        EMAIL: pantsumeow@outlook.com
+        NAME: PantsuMeowdelete
+        EMAIL: pantsumeow@outlook.comdelete
       run: |
         git config --global user.name "$NAME"
         git config --global user.email "$EMAIL"
